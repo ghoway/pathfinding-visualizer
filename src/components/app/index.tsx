@@ -8,12 +8,8 @@ import Pathfinder from '../../components/pathfinder'
 const App: FC = () => {
   return (
     <Wrapper>
-      <GithubCorner
-        size={50}
-        href='https://github.com/brnpapa/pathfinding-visualizer'
-      />
       <Pathfinder />
-      <Footer>Copyright &copy; 2020 Bruno Papa. All rights reserved.</Footer>
+      <Footer>Copyright &copy; 2024 Way. All rights reserved.</Footer>
     </Wrapper>
   )
 }
